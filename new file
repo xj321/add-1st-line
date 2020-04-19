@@ -11,15 +11,14 @@ def get_xmls(path):
 
 
 ##Update these three
-files = get_xmls('C:/Users/wangj2/Desktop/sungard/Equity Index option Feb 7')
-references = ['C2004SPTEST2']
-kept = open('C:/Users/wangj2/Desktop/sungard/MOD.xml', 'w')
+files = get_xmls('C:/Users/')
+references = ['TEST1']
+kept = open('C:/Users/MOD.xml', 'w')
 ###
 
 
     
-### kept.write('<Deals Tag_Titles="OTPP_Reference,OTPP_Analysis_Date,OTPP_Portfolio_Level1,OTPP_Portfolio_Level2,OTPP_Portfolio_Level3,OTPP_Portfolio_Level4,OTPP_Portfolio_Level5,OTPP_Portfolio_Level6,OTPP_Portfolio_Level7,OTPP_Portfolio_Level8,OTPP_Portfolio_Level9,OTPP_Portfolio_Level10,OTPP_Portfolio_Level11,OTPP_Portfolio_Level12,OTPP_Portfolio_Level13,OTPP_Portfolio_Level14,OTPP_Portfolio_Level15,OTPP_Asset_Class,OTPP_Asset_Sub_Class,OTPP_FMC_ALT2,OTPP_Currency,OTPP_Maturity_Bucket,OTPP_Liquidity_Bucket,OTPP_Product,OTPP_Asset_Type,OTPP_Contract_Type,OTPP_Position_ID,OTPP_Deal_ID,OTPP_FMC_Sec_ID,OTPP_Risk_Model,OTPP_Adaptiv_Model,OTPP_Geographic_Region,OTPP_Economic_Group,OTPP_Country_Domicile,OTPP_Country_Incorporation,OTPP_Country_Risk,OTPP_GICS_Sector,OTPP_GICS_Industry,OTPP_GICS_Sub_Industry,OTPP_Issuer,OTPP_Counterparty_Group,OTPP_Counterparty,OTPP_Credit_Rating,OTPP_CSA_Status,OTPP_Counterparty_Type,OTPP_Is_Cleared,OTPP_Clearing_House,OTPP_Leverage_Group,OTPP_Leverage_Class,OTPP_Leverage_Type,OTPP_Leverage_Instrument,OTPP_Strategy1,OTPP_Strategy2,OTPP_Strategy3,OTPP_Strategy4,OTPP_Strategy5,OTPP_Strategy6,OTPP_Strategy7,OTPP_Strategy8,OTPP_Strategy9,OTPP_Strategy10,OTPP_AMR_Public1,OTPP_AMR_Public2,OTPP_AMR_Public3,OTPP_AMR_Public4,OTPP_AMR_Public5,OTPP_AMR_Private1,OTPP_AMR_Private2,OTPP_AMR_Private3,OTPP_AMR_Private4,OTPP_AMR_Private5,OTPP_Placeholder1,OTPP_Placeholder2,OTPP_Placeholder3,OTPP_Placeholder4,OTPP_Placeholder5,OTPP_Placeholder6,OTPP_Unofficial,OTPP_Official_1,OTPP_Official_2,OTPP_ActiveRisk_BenchmarkPfol,OTPP_ActiveRisk_Actual,OTPP_ActiveRisk_AssetCategory,OTPP_Underlying_MtM,OTPP_Rating_Identifier,OTPP_PriceIsClean,OTPP_NeedsMtMSolver,OTPP_Notional,OTPP_Issue_Series,OTPP_Issue_Contract,OTPP_Issue_Reference,OTPP_Issue_Description,OTPP_Issue_Scaling_Factor">')
-
+### kept.write('')
 for file in files:
     trade_file = open(file, 'r')
 
